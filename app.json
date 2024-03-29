@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "To-Do List (React Native)",
+    "slug": "todo-list-react-native",
+    "sdkVersion": "50.0.0",
+    "version": "1.0.0",
+    "platforms": ["android", "ios"],
+    "userInterfaceStyle": "automatic",
+    "icon": "./assets/icon.png",
+    "scheme": "todo-list-react-native",
+    "plugins": [
+      [
+        "expo-router",
+        {
+          "asyncRoutes": "development"
+        }
+      ]
+    ],
+    "ios": {
+      "bundleIdentifier": "one.nahara.todo-list-react-native"
+    },
+    "android": {
+      "package": "one.nahara.todo_list_react_native",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png"
+      }
+    },
+    "experiments": {
+      "tsconfigPaths": true,
+      "typedRoutes": true
+    }
+  }
+}
